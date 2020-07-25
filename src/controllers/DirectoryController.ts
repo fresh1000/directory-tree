@@ -3,7 +3,7 @@ import DirectoryService from '../services/DirectoryService'
 import DirectoryTreeService from '../services/DirectoryTreeService'
 
 class DirectoryController {
-  async directoryTree (req: Request, res: Response) {
+  async directoryTree(req: Request, res: Response) {
     let directoryData: any = {}
     try {
       const directoryTreeService = new DirectoryTreeService()
